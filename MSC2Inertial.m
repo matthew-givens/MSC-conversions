@@ -1,4 +1,4 @@
-function x = MSC2Inertial(y)
+function x = MSC2Cart(y)
 
 u4 = y(5)*cos(y(1))*cos(y(3)) - y(2)*sin(y(1))*cos(y(3)) - y(4)*sin(y(3));
 u5 = y(5)*cos(y(1))*sin(y(3)) - y(2)*sin(y(1))*sin(y(3)) + y(4)*cos(y(3));
