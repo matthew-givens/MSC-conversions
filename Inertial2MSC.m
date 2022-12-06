@@ -1,4 +1,4 @@
-function y = Inertial2MSC(x)
+function y = Cart2MSC(x)
 
 x1_2 = x(1)^2;
 x2_2 = x(2)^2;
